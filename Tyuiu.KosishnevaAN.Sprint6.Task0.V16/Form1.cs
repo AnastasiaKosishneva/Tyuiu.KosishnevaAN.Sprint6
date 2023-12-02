@@ -43,7 +43,7 @@ namespace Tyuiu.KosishnevaAN.Sprint6.Task0.V16
 
         private void buttonVOPROS_KAN_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 0 выполнила студентка группы ИСТНБ-23-1", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show("Таск 0 выполнила студентка группы ИСТНБ-23-1", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
