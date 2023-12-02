@@ -14,7 +14,7 @@ namespace Tyuiu.KosishnevaAN.Sprint6.Task0.V16.Lib
             double xx = Convert.ToDouble(x);
             double res = Math.Round((1 + xx * xx * xx) / (xx * xx),3);
             string str = res.ToString();
-            return str;
+            return str; 
         }
     }
 }
