@@ -25,7 +25,7 @@ namespace Tyuiu.KosishnevaAN.Sprint6.Task2.V30.Lib
                 cnt++;
             }
 
-            return valueArray;
+            return valueArray; 
         }
     }
 }
