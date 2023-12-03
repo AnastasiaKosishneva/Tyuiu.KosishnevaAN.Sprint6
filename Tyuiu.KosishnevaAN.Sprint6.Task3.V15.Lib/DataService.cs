@@ -11,21 +11,25 @@ namespace Tyuiu.KosishnevaAN.Sprint6.Task3.V15.Lib
     {
         public int[,] Calculate(int[,] matrix)
         {
-
-            
-            for (int i = 0; i < matrix.GetLength(0); i++)
             {
-                for (int j = i + 1; j < matrix.GetLength(0); j++)
+                int[] column = new int[matrix.GetLength(0)];
+
+                for (int i = 0; i < matrix.GetLength(0); ++i)
                 {
-                    if (matrix[j, 2] < matrix[i, 3])
-                    {
-                        int temp = matrix[i, 2];
-                        matrix[i, 2] = matrix[j, 2];
-                        matrix[j, 2] = temp;
-                    }
+                    column[i] = matrix[i, 2];
                 }
+
+                Array.Sort(column);
+
+                for (int i = 0; i < matrix.GetLength(0); ++i)
+                {
+                    matrix[i, 2] = column[i];
+                }
+
+                return matrix;
             }
-            return matrix;
+
+
         }
     }
 }
