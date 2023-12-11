@@ -171,7 +171,7 @@ namespace Tyuiu.KosishnevaAN.Sprint6.Task6.V25
             this.Controls.Add(this.panel_KAN);
             this.Controls.Add(this.panelToDo_KAN);
             this.Name = "FormMain_KAN";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Tag = "";
             this.Text = "Спринт 6 | Таск 6 | Вариант 25 | Косишнева А. Н.";
             this.panelToDo_KAN.ResumeLayout(false);
