@@ -32,30 +32,30 @@ namespace Tyuiu.KosishnevaAN.Sprint6.Task7.V9
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMaim));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.splitter1 = new System.Windows.Forms.Splitter();
-            this.buttonUSLOVE_KAN = new System.Windows.Forms.Button();
-            this.buttonToDo_KAN = new System.Windows.Forms.Button();
-            this.buttonSOHR_KAN = new System.Windows.Forms.Button();
             this.buttonSPRAVKA_KAN = new System.Windows.Forms.Button();
-            this.textBoxUSLOVIE_KAN = new System.Windows.Forms.TextBox();
-            this.groupBox_USLOVIE_KAN = new System.Windows.Forms.GroupBox();
-            this.groupBoxToDO_KAN = new System.Windows.Forms.GroupBox();
+            this.buttonSOHR_KAN = new System.Windows.Forms.Button();
+            this.buttonToDo_KAN = new System.Windows.Forms.Button();
+            this.buttonUSLOVE_KAN = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.labelUSLOVIE_KAN = new System.Windows.Forms.Label();
+            this.textBoxUSLOVIE_KAN = new System.Windows.Forms.TextBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.groupBox_USLOVIE_KAN = new System.Windows.Forms.GroupBox();
             this.dataGridViewUSLOVIE_KAN = new System.Windows.Forms.DataGridView();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.groupBoxToDO_KAN = new System.Windows.Forms.GroupBox();
             this.dataGridViewRESULT_KAN = new System.Windows.Forms.DataGridView();
+            this.splitter1 = new System.Windows.Forms.Splitter();
             this.openFileDialogTask = new System.Windows.Forms.OpenFileDialog();
             this.toolTipButton = new System.Windows.Forms.ToolTip(this.components);
             this.saveFileDialogMatrix = new System.Windows.Forms.SaveFileDialog();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.groupBox_USLOVIE_KAN.SuspendLayout();
-            this.groupBoxToDO_KAN.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewUSLOVIE_KAN)).BeginInit();
+            this.panel4.SuspendLayout();
+            this.groupBoxToDO_KAN.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRESULT_KAN)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,53 +71,30 @@ namespace Tyuiu.KosishnevaAN.Sprint6.Task7.V9
             this.panel1.Size = new System.Drawing.Size(1137, 94);
             this.panel1.TabIndex = 0;
             // 
-            // panel2
+            // buttonSPRAVKA_KAN
             // 
-            this.panel2.Controls.Add(this.labelUSLOVIE_KAN);
-            this.panel2.Controls.Add(this.textBoxUSLOVIE_KAN);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 94);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1137, 100);
-            this.panel2.TabIndex = 1;
+            this.buttonSPRAVKA_KAN.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonSPRAVKA_KAN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSPRAVKA_KAN.Image = ((System.Drawing.Image)(resources.GetObject("buttonSPRAVKA_KAN.Image")));
+            this.buttonSPRAVKA_KAN.Location = new System.Drawing.Point(1016, 6);
+            this.buttonSPRAVKA_KAN.Name = "buttonSPRAVKA_KAN";
+            this.buttonSPRAVKA_KAN.Size = new System.Drawing.Size(109, 82);
+            this.buttonSPRAVKA_KAN.TabIndex = 3;
+            this.toolTipButton.SetToolTip(this.buttonSPRAVKA_KAN, "Справка");
+            this.buttonSPRAVKA_KAN.UseVisualStyleBackColor = true;
+            this.buttonSPRAVKA_KAN.Click += new System.EventHandler(this.buttonSPRAVKA_KAN_Click);
             // 
-            // panel3
+            // buttonSOHR_KAN
             // 
-            this.panel3.Controls.Add(this.groupBox_USLOVIE_KAN);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(0, 194);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(565, 391);
-            this.panel3.TabIndex = 2;
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.groupBoxToDO_KAN);
-            this.panel4.Controls.Add(this.splitter1);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(565, 194);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(572, 391);
-            this.panel4.TabIndex = 3;
-            // 
-            // splitter1
-            // 
-            this.splitter1.Location = new System.Drawing.Point(0, 0);
-            this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(3, 391);
-            this.splitter1.TabIndex = 0;
-            this.splitter1.TabStop = false;
-            // 
-            // buttonUSLOVE_KAN
-            // 
-            this.buttonUSLOVE_KAN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonUSLOVE_KAN.Image = ((System.Drawing.Image)(resources.GetObject("buttonUSLOVE_KAN.Image")));
-            this.buttonUSLOVE_KAN.Location = new System.Drawing.Point(20, 6);
-            this.buttonUSLOVE_KAN.Name = "buttonUSLOVE_KAN";
-            this.buttonUSLOVE_KAN.Size = new System.Drawing.Size(109, 82);
-            this.buttonUSLOVE_KAN.TabIndex = 0;
-            this.buttonUSLOVE_KAN.UseVisualStyleBackColor = true;
-            this.buttonUSLOVE_KAN.Click += new System.EventHandler(this.buttonUSLOVE_KAN_Click);
+            this.buttonSOHR_KAN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSOHR_KAN.Image = ((System.Drawing.Image)(resources.GetObject("buttonSOHR_KAN.Image")));
+            this.buttonSOHR_KAN.Location = new System.Drawing.Point(250, 6);
+            this.buttonSOHR_KAN.Name = "buttonSOHR_KAN";
+            this.buttonSOHR_KAN.Size = new System.Drawing.Size(109, 82);
+            this.buttonSOHR_KAN.TabIndex = 2;
+            this.toolTipButton.SetToolTip(this.buttonSOHR_KAN, "Сохранить файл");
+            this.buttonSOHR_KAN.UseVisualStyleBackColor = true;
+            this.buttonSOHR_KAN.Click += new System.EventHandler(this.buttonSOHR_KAN_Click);
             // 
             // buttonToDo_KAN
             // 
@@ -128,29 +105,40 @@ namespace Tyuiu.KosishnevaAN.Sprint6.Task7.V9
             this.buttonToDo_KAN.Name = "buttonToDo_KAN";
             this.buttonToDo_KAN.Size = new System.Drawing.Size(109, 82);
             this.buttonToDo_KAN.TabIndex = 1;
+            this.toolTipButton.SetToolTip(this.buttonToDo_KAN, "Изменить в третьем столбце значения в диопозоне от 1 до 5 на 7");
             this.buttonToDo_KAN.UseVisualStyleBackColor = true;
             this.buttonToDo_KAN.Click += new System.EventHandler(this.buttonToDo_KAN_Click);
             // 
-            // buttonSOHR_KAN
+            // buttonUSLOVE_KAN
             // 
-            this.buttonSOHR_KAN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSOHR_KAN.Location = new System.Drawing.Point(250, 6);
-            this.buttonSOHR_KAN.Name = "buttonSOHR_KAN";
-            this.buttonSOHR_KAN.Size = new System.Drawing.Size(109, 82);
-            this.buttonSOHR_KAN.TabIndex = 2;
-            this.buttonSOHR_KAN.UseVisualStyleBackColor = true;
-            this.buttonSOHR_KAN.Click += new System.EventHandler(this.buttonSOHR_KAN_Click);
+            this.buttonUSLOVE_KAN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonUSLOVE_KAN.Image = ((System.Drawing.Image)(resources.GetObject("buttonUSLOVE_KAN.Image")));
+            this.buttonUSLOVE_KAN.Location = new System.Drawing.Point(20, 6);
+            this.buttonUSLOVE_KAN.Name = "buttonUSLOVE_KAN";
+            this.buttonUSLOVE_KAN.Size = new System.Drawing.Size(109, 82);
+            this.buttonUSLOVE_KAN.TabIndex = 0;
+            this.toolTipButton.SetToolTip(this.buttonUSLOVE_KAN, "Открыть файл для обработки данных в формате ");
+            this.buttonUSLOVE_KAN.UseVisualStyleBackColor = true;
+            this.buttonUSLOVE_KAN.Click += new System.EventHandler(this.buttonUSLOVE_KAN_Click);
             // 
-            // buttonSPRAVKA_KAN
+            // panel2
             // 
-            this.buttonSPRAVKA_KAN.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonSPRAVKA_KAN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSPRAVKA_KAN.Location = new System.Drawing.Point(1016, 6);
-            this.buttonSPRAVKA_KAN.Name = "buttonSPRAVKA_KAN";
-            this.buttonSPRAVKA_KAN.Size = new System.Drawing.Size(109, 82);
-            this.buttonSPRAVKA_KAN.TabIndex = 3;
-            this.buttonSPRAVKA_KAN.Text = "button4";
-            this.buttonSPRAVKA_KAN.UseVisualStyleBackColor = true;
+            this.panel2.Controls.Add(this.labelUSLOVIE_KAN);
+            this.panel2.Controls.Add(this.textBoxUSLOVIE_KAN);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 94);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1137, 100);
+            this.panel2.TabIndex = 1;
+            // 
+            // labelUSLOVIE_KAN
+            // 
+            this.labelUSLOVIE_KAN.AutoSize = true;
+            this.labelUSLOVIE_KAN.Location = new System.Drawing.Point(17, 10);
+            this.labelUSLOVIE_KAN.Name = "labelUSLOVIE_KAN";
+            this.labelUSLOVIE_KAN.Size = new System.Drawing.Size(67, 17);
+            this.labelUSLOVIE_KAN.TabIndex = 1;
+            this.labelUSLOVIE_KAN.Text = "Условие:";
             // 
             // textBoxUSLOVIE_KAN
             // 
@@ -160,6 +148,15 @@ namespace Tyuiu.KosishnevaAN.Sprint6.Task7.V9
             this.textBoxUSLOVIE_KAN.Size = new System.Drawing.Size(1105, 64);
             this.textBoxUSLOVIE_KAN.TabIndex = 0;
             this.textBoxUSLOVIE_KAN.Text = resources.GetString("textBoxUSLOVIE_KAN.Text");
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.groupBox_USLOVIE_KAN);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel3.Location = new System.Drawing.Point(0, 194);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(565, 391);
+            this.panel3.TabIndex = 2;
             // 
             // groupBox_USLOVIE_KAN
             // 
@@ -171,25 +168,6 @@ namespace Tyuiu.KosishnevaAN.Sprint6.Task7.V9
             this.groupBox_USLOVIE_KAN.TabStop = false;
             this.groupBox_USLOVIE_KAN.Text = "Ввод:";
             // 
-            // groupBoxToDO_KAN
-            // 
-            this.groupBoxToDO_KAN.Controls.Add(this.dataGridViewRESULT_KAN);
-            this.groupBoxToDO_KAN.Location = new System.Drawing.Point(20, 6);
-            this.groupBoxToDO_KAN.Name = "groupBoxToDO_KAN";
-            this.groupBoxToDO_KAN.Size = new System.Drawing.Size(540, 373);
-            this.groupBoxToDO_KAN.TabIndex = 1;
-            this.groupBoxToDO_KAN.TabStop = false;
-            this.groupBoxToDO_KAN.Text = "Вывод:";
-            // 
-            // labelUSLOVIE_KAN
-            // 
-            this.labelUSLOVIE_KAN.AutoSize = true;
-            this.labelUSLOVIE_KAN.Location = new System.Drawing.Point(17, 10);
-            this.labelUSLOVIE_KAN.Name = "labelUSLOVIE_KAN";
-            this.labelUSLOVIE_KAN.Size = new System.Drawing.Size(67, 17);
-            this.labelUSLOVIE_KAN.TabIndex = 1;
-            this.labelUSLOVIE_KAN.Text = "Условие:";
-            // 
             // dataGridViewUSLOVIE_KAN
             // 
             this.dataGridViewUSLOVIE_KAN.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -199,6 +177,26 @@ namespace Tyuiu.KosishnevaAN.Sprint6.Task7.V9
             this.dataGridViewUSLOVIE_KAN.RowTemplate.Height = 24;
             this.dataGridViewUSLOVIE_KAN.Size = new System.Drawing.Size(527, 346);
             this.dataGridViewUSLOVIE_KAN.TabIndex = 0;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.groupBoxToDO_KAN);
+            this.panel4.Controls.Add(this.splitter1);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(565, 194);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(572, 391);
+            this.panel4.TabIndex = 3;
+            // 
+            // groupBoxToDO_KAN
+            // 
+            this.groupBoxToDO_KAN.Controls.Add(this.dataGridViewRESULT_KAN);
+            this.groupBoxToDO_KAN.Location = new System.Drawing.Point(20, 6);
+            this.groupBoxToDO_KAN.Name = "groupBoxToDO_KAN";
+            this.groupBoxToDO_KAN.Size = new System.Drawing.Size(540, 373);
+            this.groupBoxToDO_KAN.TabIndex = 1;
+            this.groupBoxToDO_KAN.TabStop = false;
+            this.groupBoxToDO_KAN.Text = "Вывод:";
             // 
             // dataGridViewRESULT_KAN
             // 
@@ -210,9 +208,21 @@ namespace Tyuiu.KosishnevaAN.Sprint6.Task7.V9
             this.dataGridViewRESULT_KAN.Size = new System.Drawing.Size(528, 346);
             this.dataGridViewRESULT_KAN.TabIndex = 0;
             // 
+            // splitter1
+            // 
+            this.splitter1.Location = new System.Drawing.Point(0, 0);
+            this.splitter1.Name = "splitter1";
+            this.splitter1.Size = new System.Drawing.Size(3, 391);
+            this.splitter1.TabIndex = 0;
+            this.splitter1.TabStop = false;
+            // 
             // openFileDialogTask
             // 
             this.openFileDialogTask.FileName = "openFileDialog1";
+            // 
+            // toolTipButton
+            // 
+            this.toolTipButton.IsBalloon = true;
             // 
             // FormMaim
             // 
@@ -229,10 +239,10 @@ namespace Tyuiu.KosishnevaAN.Sprint6.Task7.V9
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
             this.groupBox_USLOVIE_KAN.ResumeLayout(false);
-            this.groupBoxToDO_KAN.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewUSLOVIE_KAN)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.groupBoxToDO_KAN.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRESULT_KAN)).EndInit();
             this.ResumeLayout(false);
 
@@ -241,7 +251,6 @@ namespace Tyuiu.KosishnevaAN.Sprint6.Task7.V9
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button buttonSPRAVKA_KAN;
         private System.Windows.Forms.Button buttonSOHR_KAN;
         private System.Windows.Forms.Button buttonToDo_KAN;
         private System.Windows.Forms.Button buttonUSLOVE_KAN;
@@ -258,6 +267,7 @@ namespace Tyuiu.KosishnevaAN.Sprint6.Task7.V9
         private System.Windows.Forms.OpenFileDialog openFileDialogTask;
         private System.Windows.Forms.ToolTip toolTipButton;
         private System.Windows.Forms.SaveFileDialog saveFileDialogMatrix;
+        private System.Windows.Forms.Button buttonSPRAVKA_KAN;
     }
 }
 

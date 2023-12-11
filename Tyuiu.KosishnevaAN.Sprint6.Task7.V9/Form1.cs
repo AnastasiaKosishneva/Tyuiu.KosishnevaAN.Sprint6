@@ -131,5 +131,15 @@ namespace Tyuiu.KosishnevaAN.Sprint6.Task7.V9
                 str = "";
             }
         }
+
+        private void buttonSPRAVKA_KAN_Click(object sender, EventArgs e)
+        {
+            FormAbout formAbout = new FormAbout();
+            formAbout.ShowDialog();
+        }
+        private void buttonUSLOVIE_KAN_MouseEnter(object sender, EventArgs e)
+        {
+            toolTipButton.ToolTipTitle = "Открыть файл";
+        }
     }
 }
